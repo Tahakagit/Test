@@ -22,8 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerViewFragment.SimpleRVAdapter adapter = new RecyclerViewFragment.SimpleRVAdapter("prova");
         super.onCreate(savedInstanceState);
+/*
         RecyclerView rview = findViewById(R.id.recyclerview);
         rview.setAdapter(adapter);
+*/
 
    }
 }
