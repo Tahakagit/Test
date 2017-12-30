@@ -6,15 +6,23 @@
     android:layout_height="match_parent"
     tools:context="com.example.franc.myapplication.MainActivity">
 
-    <fragment
-        android:id="@+id/input"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="match_parent" />
-    <fragment
-        android:id="@+id/list"
-        android:layout_weight="2"
-        android:layout_width="0dp"
-        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUCA"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Push for dialog"
+            android:id="@+id/button"
+            />
+
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
