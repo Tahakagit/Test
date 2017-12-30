@@ -8,7 +8,7 @@ import android.view.View;
 
 import io.realm.Realm;
 
-public class MainActivity extends AppCompatActivity {
+public class RecyclerViewContainerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.activity_main);
